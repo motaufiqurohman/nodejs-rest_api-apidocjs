@@ -1,0 +1,27 @@
+{
+  "name": "lionparcel_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "apidoc": "apidoc \".*\\\\.js$\" -e node_modules -o apidoc\\"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "html-to-image": "^0.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^1.7.0",
+    "nodemon": "^1.19.1",
+    "sequelize": "^5.17.2",
+    "sequelize-cli": "^5.5.0"
+  }
+}
